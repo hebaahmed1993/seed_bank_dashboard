@@ -1,0 +1,423 @@
+{
+  "@@locale": "en",
+  "platformTitle": "Gheras Cloud Platform",
+  "platformSubtitle": "Centralized Administration Dashboard System",
+  "login": "Login",
+  "loginInstruction": "Enter administrator credentials to access the dashboard",
+  "email": "Email Address",
+  "password": "Password",
+  "loginButton": "Access Dashboard",
+  "emailRequired": "Please enter your email",
+  "passwordRequired": "Please enter your password",
+  "homeMenu": "Home",
+  "plantsMenu": "Plants & Seeds",
+  "usersMenu": "Users",
+  "ordersMenu": "Orders",
+  "reportsMenu": "Financial Reports",
+  "settingsMenu": "Settings",
+  "logoutButton": "Logout",
+  "welcomeMessage": "Welcome back, Heba Ahmed 👋",
+  "overviewTitle": "System Overview",
+  "totalSeeds": "Total Seeds",
+  "activeOrders": "Active Orders",
+  "registeredFarmers": "Registered Farmers",
+  "monthlyEarnings": "Monthly Earnings",
+  "chartsPlaceholder": "Charts space and latest operations list (Under Development) 📊",
+  "usersManagementTitle": "User Management & Permissions",
+  "usersManagementSubtitle": "Full control over system accounts, employees, and farmers",
+  "addNewEmployee": "Add New Employee",
+  "searchUsersHint": "Search by username, email, or phone...",
+  "allRoles": "All Roles",
+  "adminRole": "Admin",
+  "dataEntryRole": "Data Entry",
+  "farmerRole": "Professional Farmer",
+  "hobbyistRole": "Hobbyist / Regular User",
+  "allStatuses": "All Statuses",
+  "activeOnly": "Active Only",
+  "blockedOnly": "Blocked Only",
+  "noMatchingUsers": "No users match the search and filter criteria.",
+  "userColumn": "User",
+  "phoneColumn": "Phone",
+  "cityColumn": "City",
+  "roleColumn": "Role",
+  "statusColumn": "Status",
+  "actionsColumn": "Actions",
+  "activeStatus": "Active",
+  "blockedStatus": "Blocked",
+  "backToUsersList": "Back to Users List",
+  "createAccountCloud": "Create New User Account Securely",
+  "fullNameLabel": "Full Name *",
+  "fullNameValidator": "Please enter full name",
+  "emailLabel": "Email Address *",
+  "emailEmptyValidator": "Please enter email address",
+  "emailInvalidValidator": "Please enter a valid email",
+  "phoneLabel": "Phone Number *",
+  "phoneValidator": "Please enter phone number",
+  "cityLabel": "City *",
+  "roleLabel": "Select Role Level (Account Type) *",
+  "cancel": "Cancel",
+  "saveAccountCloud": "Save Account to Cloud",
+  "productsManagementSubtitle": "Manage platform offerings including plants, seeds, and equipment",
+  "addNewProduct": "Add New Product",
+  "searchProductsHint": "Search by product commercial or scientific name...",
+  "allCategories": "All Categories",
+  "productImageColumn": "Image",
+  "productNameArColumn": "Name (Ar)",
+  "productNameEnColumn": "Name (En)",
+  "productPriceColumn": "Price",
+  "productStockColumn": "Stock",
+  "noMatchingProducts": "No matching products found 📦",
+  "backToProductsList": "Back to Products List",
+  "addProductToPlatform": "Add New Product to Platform",
+  "productTitleLabel": "Product Title / Name *",
+  "productTitleValidator": "Please enter product title",
+  "productDescriptionLabel": "Detailed Description *",
+  "productDescriptionValidator": "Please enter description",
+  "productPriceLabel": "Price (LYD) *",
+  "productPriceValidator": "Invalid price",
+  "productStockLabel": "Stock Quantity *",
+  "productStockValidator": "Invalid quantity",
+  "mainCategoryLabel": "Main Category *",
+  "categoryRequiredValidator": "Please select a category",
+  "suitableSeasonLabel": "Suitable Season *",
+  "germinationRateLabel": "Germination Rate if applicable (e.g., 90%)",
+  "saveProductCloud": "Save Product to Cloud",
+  "ordersManagementTitle": "Orders Management",
+  "ordersManagementSubtitle": "Monitor and process incoming farmer orders (last 30 added orders)",
+  "addNewCancelReason": "Add New Cancel Reason",
+  "noOrdersRegistered": "No orders registered in the system currently.",
+  "showingOrders": "Showing {start} to {end} of {total} orders",
+  "@showingOrders": {
+    "placeholders": {
+      "start": { "type": "String" },
+      "end": { "type": "String" },
+      "total": { "type": "String" }
+    }
+  },
+  "pageOf": "Page {current} of {total}",
+  "@pageOf": {
+    "placeholders": {
+      "current": { "type": "String" },
+      "total": { "type": "String" }
+    }
+  },
+  "ordersError": "An error occurred while fetching orders: {error}",
+  "@ordersError": {
+    "placeholders": {
+      "error": { "type": "String" }
+    }
+  },
+  "orderNumberColumn": "Order Number",
+  "farmerAndContactColumn": "Farmer & Contact",
+  "orderDateTimeColumn": "Order Date & Time",
+  "orderValueColumn": "Order Value",
+  "orderStatusColumn": "Order Status",
+  "detailsColumn": "Details",
+  "pendingApproval": "Pending Approval",
+  "currency": "LYD",
+  "orderDetailsTitle": "Order Details #{id}",
+  "@orderDetailsTitle": {
+    "placeholders": {
+      "id": { "type": "String" }
+    }
+  },
+  "clientData": "Client Data",
+  "clientNameLabel": "Name: {name}",
+  "@clientNameLabel": {
+    "placeholders": {
+      "name": { "type": "String" }
+    }
+  },
+  "clientPhoneLabel": "Phone: {phone}",
+  "@clientPhoneLabel": {
+    "placeholders": {
+      "phone": { "type": "String" }
+    }
+  },
+  "clientUserIdLabel": "User ID: {id}",
+  "@clientUserIdLabel": {
+    "placeholders": {
+      "id": { "type": "String" }
+    }
+  },
+  "deliveryAndTimeData": "Delivery & Time Data",
+  "deliveryAddressLabel": "Address: {address}",
+  "@deliveryAddressLabel": {
+    "placeholders": {
+      "address": { "type": "String" }
+    }
+  },
+  "deliveryFeeLabel": "Delivery Fee: {fee} LYD",
+  "@deliveryFeeLabel": {
+    "placeholders": {
+      "fee": { "type": "String" }
+    }
+  },
+  "orderTimeLabel": "Order Time: {time}",
+  "@orderTimeLabel": {
+    "placeholders": {
+      "time": { "type": "String" }
+    }
+  },
+  "requestedProducts": "Requested Products:",
+  "productTableColumn": "Product",
+  "unitPriceTableColumn": "Unit Price",
+  "quantityTableColumn": "Quantity",
+  "subtotalTableColumn": "Subtotal",
+  "totalProductsLabel": "Total Products:",
+  "deliveryCostLabel": "Delivery Cost:",
+  "grandTotalLabel": "Grand Total:",
+  "cancellationInfoTitle": "Order Cancellation Information:",
+  "cancelReasonLabel": "Cancellation Reason: {reason}",
+  "@cancelReasonLabel": {
+    "placeholders": {
+      "reason": { "type": "String" }
+    }
+  },
+  "noReasonSpecified": "No reason specified",
+  "adminNotesLabel": "Admin Notes: {notes}",
+  "@adminNotesLabel": {
+    "placeholders": {
+      "notes": { "type": "String" }
+    }
+  },
+  "orderNotesLabel": "Order Notes: {notes}",
+  "@orderNotesLabel": {
+    "placeholders": {
+      "notes": { "type": "String" }
+    }
+  },
+  "updateOrderStatusTitle": "Update Order Status:",
+  "orderStatusUpdatedSuccess": "Order status updated to ({status}) successfully",
+  "@orderStatusUpdatedSuccess": {
+    "placeholders": {
+      "status": { "type": "String" }
+    }
+  },
+  "cancelOrderAndReturnProducts": "Cancel Order & Return Products",
+  "cancelOrderConfirmation": "You are about to cancel order #{id}. Please select the reason and save details:",
+  "@cancelOrderConfirmation": {
+    "placeholders": {
+      "id": { "type": "String" }
+    }
+  },
+  "actualCancelReason": "Actual Cancellation Reason",
+  "selectCancelReasonValidator": "Please select a cancellation reason first",
+  "additionalAdminNotes": "Additional Admin Notes (Optional)",
+  "goBack": "Go Back",
+  "confirmFinalCancellation": "Confirm Final Cancellation",
+  "customerChangedMind": "Customer changed mind about the order",
+  "orderCancelledSuccess": "Order cancelled and data saved successfully",
+  "addNewCancelReasonSystem": "Add New Cancel Reason in System",
+  "newReasonDisclaimer": "The new reason will immediately appear as an option in the cancellation list for administrators.",
+  "cancelReasonArLabel": "Cancellation Reason (Arabic)",
+  "requiredField": "Required",
+  "cancelReasonEnLabel": "Cancellation Reason (English)",
+  "saveAndRegister": "Save",
+  "newCancelReasonRegisteredSuccess": "New cancellation reason registered successfully",
+  "citiesManagementTitle": "Cities & Active Delivery Management",
+    "searchCityHint": "Search by city name...",
+    "noRegisteredCities": "No registered cities found currently.",
+    "noMatchingCities": "No cities match the current search.",
+    "serialNumberColumn": "#",
+    "cityNameColumn": "City Name",
+    "activityStatusColumn": "Activity Status",
+    "inactiveStatus": "Inactive",
+    "statusUpdateFailed": "Failed to update status: {error}",
+    "@statusUpdateFailed": {
+      "placeholders": {
+        "error": { "type": "String" }
+      }
+    },
+    "errorLoadingCities": "Error loading cities: {error}",
+    "@errorLoadingCities": {
+      "placeholders": {
+        "error": { "type": "String" }
+      }
+    },
+    "addNewCity": "Add New City",
+    "regionsManagementTitle": "Regions & Delivery Cost Management",
+      "searchRegionHint": "Search by region name...",
+      "noRegisteredRegions": "No registered regions currently",
+      "noMatchingRegions": "No results match the current search.",
+      "regionColumn": "Region",
+      "cityColumn": "City",
+      "deliveryFeeColumn": "Delivery Fee",
+      "deliveryTimeColumn": "Delivery Time",
+      "deliveryStatusColumn": "Delivery Status",
+      "addNewRegion": "Add New Region",
+      "errorLoadingRegions": "Error loading regions: {error}",
+      "@errorLoadingRegions": {
+        "placeholders": {
+          "error": { "type": "String" }
+        }
+      },
+      "addNewDeliveryRegionTitle": "Add New Delivery Region",
+        "parentCityLabel": "Parent City *",
+        "selectCityHint": "Select City",
+        "selectParentCityValidator": "Please select the parent city",
+        "errorFetchingCities": "Error fetching cities",
+        "regionNameLabel": "Region Name *",
+        "requiredFieldValidator": "This field is required",
+        "deliveryFeeInputLabel": "Delivery Fee (LYD) *",
+        "invalidValueValidator": "Invalid value",
+        "deliveryDurationLabel": "Delivery Duration (e.g., 1-2 days) *",
+        "savingProgress": "Saving...",
+        "add": "Add",
+        "addNewCityTitle": "Add New Service City",
+        "addCityInstruction": "Please enter the name of the city you want to activate to receive orders from:",
+        "cityNameInputLabel": "City Name (e.g., Tobruk)",
+        "cityNameValidator": "Please enter the city name",
+        "addAndActivate": "Add & Activate",
+        "cityAddedSuccess": "{city} city added successfully!",
+        "@cityAddedSuccess": {
+          "placeholders": {
+            "city": { "type": "String" }
+          }
+        },
+        "addFailedError": "Addition failed: {error}",
+        "@addFailedError": {
+          "placeholders": {
+            "error": { "type": "String" }
+          }
+        },
+        "editRegionTitle": "Edit Region Details",
+          "regionNameArLabel": "Region Name (Arabic) *",
+          "editDetails": "Update Details",
+          "editProgress": "Updating...",
+          "editCityTitle": "Edit City Details",
+          "cityUpdatedSuccess": "City updated successfully!",
+          "updateFailedError": "Update failed: {error}",
+          "@updateFailedError": {
+            "placeholders": {
+              "error": { "type": "String" }
+            }
+          },
+          "manageCancelReasonsTitle": "Cancel Reasons Management",
+            "manageCancelReasonsSubtitle": "Browse and add order cancellation reasons, with the ability to deactivate old reasons to ensure historical system record integrity.",
+            "errorLoadingReasons": "An error occurred while loading reasons: {error}",
+            "@errorLoadingReasons": {
+              "placeholders": {
+                "error": { "type": "String" }
+              }
+            },
+            "noRegisteredReasons": "No cancellation reasons registered currently",
+            "addFirstReasonInstruction": "Add the first reason so it appears to admins in the order cancellation window.",
+            "addNow": "Add Now",
+            "reasonColumn": "Reason",
+            "disabledStatus": "Disabled",
+            "reasonReactivatedSuccess": "Cancellation reason successfully reactivated!",
+            "reasonDeactivatedSuccess": "Cancellation reason deactivated.",
+            "operationFailed": "Operation failed: {error}",
+            "@operationFailed": {
+              "placeholders": {
+                "error": { "type": "String" }
+              }
+            },
+            "unexpectedError": "An unexpected error occurred",
+            "manageOrderStatusesTitle": "Order Statuses Management",
+              "manageOrderStatusesSubtitle": "Browse, add, and edit order statuses and their custom colors, with instant activation and deactivation capabilities.",
+              "addNewStatus": "Add New Status",
+              "errorLoadingStatuses": "An error occurred while loading order statuses: {error}",
+              "@errorLoadingStatuses": {
+                "placeholders": {
+                  "error": { "type": "String" }
+                }
+              },
+              "noRegisteredStatuses": "No order statuses registered currently",
+              "addFirstStatusInstruction": "Add the first status to the system to appear in order tracking.",
+              "addStatusNow": "Add Status Now",
+              "statusNameColumn": "Status Name",
+              "statusIdColumn": "Identifier (ID)",
+              "statusDescriptionColumn": "Description",
+              "statusColorColumn": "Color",
+              "statusActivatedSuccess": "Order status ({name}) successfully activated!",
+              "@statusActivatedSuccess": {
+                "placeholders": {
+                  "name": { "type": "String" }
+                }
+              },
+              "statusDeactivatedSuccess": "Order status ({name}) deactivated.",
+              "@statusDeactivatedSuccess": {
+                "placeholders": {
+                  "name": { "type": "String" }
+                }
+              },
+              "editOrderStatusTitle": "Edit Order Status",
+              "addOrderStatusTitle": "Add New Status",
+              "orderStatusFormSubtitle": "Enter the order status details that appear to users and admins on the dashboard.",
+              "statusIdLabel": "Unique Identifier (statusId)",
+              "statusIdHint": "e.g., processing, delivered, cancelled",
+              "statusIdRequiredError": "Please enter the status unique identifier",
+              "statusIdInvalidError": "Identifier must contain only English letters and numbers without spaces",
+              "statusNameLabel": "Status Name",
+              "statusNameHint": "e.g., Processing",
+              "statusDescriptionLabel": "Detailed Status Description",
+              "statusDescriptionHint": "e.g., Our team is currently packing and preparing products for shipping",
+              "colorHexLabel": "Color Code (Hex)",
+              "colorHexHint": "#2196F3",
+              "colorHexRequiredError": "Please enter the color code",
+              "colorHexInvalidError": "Invalid format (e.g., #2196F3)",
+              "previewLabel": "Preview",
+              "suggestedColorsLabel": "Suggested colors for quick selection:",
+              "systemActivationStatusLabel": "System Activation Status (Active):",
+              "saveChanges": "Save Changes",
+              "addStatus": "Add Status",
+              "statusUpdatedSuccess": "Order status updated successfully!",
+              "statusAddedSuccess": "New order status added successfully!",
+              "errorLoadingSettings": "Failed to load general settings. Please try again.",
+                "generalAppSettingsTitle": "General App Settings",
+                "generalAppSettingsSubtitle": "Manage basic app data, social links, and legal pages.",
+                "generalAndOperationSettings": "General & Operation Settings",
+                "appNameLabel": "App Name",
+                "appNameHint": "e.g., Gheiras",
+                "appVersionLabel": "App Version",
+                "appVersionHint": "e.g., 1.0.0",
+                "storeSupportPhoneLabel": "Store Support Phone",
+                "storeSupportPhoneHint": "e.g., 0912345678",
+                "minOrderValueLabel": "Minimum Order Value",
+                "minOrderValueHint": "e.g., 50",
+                "currencyCodeLabel": "Currency Code",
+                "currencyCodeHint": "e.g., LYD",
+                "socialMediaLinksTitle": "Social Media Links",
+                "facebookUrlLabel": "Facebook URL",
+                "facebookUrlHint": "https://facebook.com/...",
+                "instagramUrlLabel": "Instagram URL",
+                "instagramUrlHint": "https://instagram.com/...",
+                "whatsappNumberLabel": "WhatsApp Number",
+                "whatsappNumberHint": "e.g., +218912345678",
+                "legalAndIntroPagesTitle": "Legal & Intro Pages",
+                "aboutUsLabel": "About Us",
+                "aboutUsHint": "Write a clear and brief description of the store.",
+                "privacyPolicyUrlLabel": "Privacy Policy URL",
+                "privacyPolicyUrlHint": "https://example.com/privacy",
+                "termsUrlLabel": "Terms and Conditions URL",
+                "termsUrlHint": "https://example.com/terms",
+                "maintenanceModeActive": "Maintenance mode is currently active",
+                "changesApplyAfterSave": "Changes will apply to the app after saving",
+                "saveSettingsButton": "Save Settings",
+                "settingsSavedSuccess": "General settings saved successfully",
+                "settingsSaveError": "Failed to save settings. Please try again.",
+                "maintenanceModeActiveStatus": "App is under maintenance",
+                "appWorkingNormally": "App is working normally",
+                "unblockUserTooltip": "Unblock User",
+                  "blockUserTooltip": "Block User",
+                  "editUserDetailsTitle": "Edit User Details",
+                  "userUpdatedSuccess": "Updated successfully",
+                  "areYouSurePrompt": "Are you sure about this action?",
+                  "accountStatusUpdatedSuccess": "Account status changed successfully",
+                  "confirmButton": "Confirm",
+                  "manageAdminsTitle": "Admins & Permissions Management",
+                    "manageAdminsSubtitle": "Manage admin accounts, define their roles, and control access permissions to the dashboard.",
+                    "addNewAdmin": "Add New Admin",
+                    "statusUpdatedSuccess": "Status updated successfully!",
+                    "nameColumn": "Name",
+                    "emailColumn": "Email",
+                    "phoneColumn": "Phone Number",
+                    "noRegisteredAdmins": "No registered admins currently.",
+                    "editAdminRole": "Edit Admin Role",
+                    "adminUpdatedSuccess": "Admin details and role updated successfully!",
+                    "adminAddedSuccess": "New admin added successfully!",
+                    "save": "Save"
+
+}

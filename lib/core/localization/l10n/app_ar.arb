@@ -1,0 +1,422 @@
+{
+  "@@locale": "ar",
+  "platformTitle": "منصة غِراس السحابية",
+  "platformSubtitle": "لوحة التحكم الإدارية المركزية للنظام",
+  "login": "تسجيل الدخول",
+  "loginInstruction": "أدخل بيانات حساب المسؤول للوصول للوحة التحكم",
+  "email": "البريد الإلكتروني",
+  "password": "كلمة المرور",
+  "loginButton": "دخول للوحة التحكم",
+  "emailRequired": "الرجاء إدخال البريد الإلكتروني",
+  "passwordRequired": "الرجاء إدخال كلمة المرور",
+  "homeMenu": "الرئيسية",
+  "plantsMenu": "المنتجات",
+  "usersMenu": "المستخدمين",
+  "ordersMenu": "الطلبات",
+  "reportsMenu": "التقارير الماليّة",
+  "settingsMenu": "الإعدادات",
+  "logoutButton": "تسجيل الخروج",
+  "welcomeMessage": "مرحباً بكِ مجدداً، هبة أحمد 👋",
+  "overviewTitle": "نظرة عامة على النظام",
+  "totalSeeds": "إجمالي البذور",
+  "activeOrders": "الطلبات النشطة",
+  "registeredFarmers": "المزارعين المسجلين",
+  "monthlyEarnings": "أرباح هذا الشهر",
+  "chartsPlaceholder": "مساحة المخططات البيانية وقائمة آخر العمليات المضافة (قيد التطوير) 📊",
+  "usersManagementTitle": "إدارة المستخدمين والصلاحيات",
+  "usersManagementSubtitle": "التحكم الكامل بحسابات النظام والموظفين والمزارعين",
+  "addNewEmployee": "إضافة موظف جديد",
+  "searchUsersHint": "البحث باسم المستخدم، البريد، أو الهاتف...",
+  "allRoles": "جميع الصلاحيات",
+  "adminRole": "مدير النظام (Admin)",
+  "dataEntryRole": "مدخل بيانات وبذور",
+  "farmerRole": "مزارع محترف",
+  "hobbyistRole": "هاوي / مستخدم عادي",
+  "allStatuses": "جميع الحالات",
+  "activeOnly": "نشط فقط",
+  "blockedOnly": "محظور فقط",
+  "noMatchingUsers": "لا يوجد مستخدمون مطابقون لمعايير البحث والفلترة.",
+  "userColumn": "المستخدم",
+  "phoneColumn": "الهاتف",
+  "cityColumn": "المدينة",
+  "roleColumn": "الصلاحية",
+  "statusColumn": "الحالة",
+  "actionsColumn": "العمليات",
+  "activeStatus": "نشط",
+  "blockedStatus": "محظور",
+  "backToUsersList": "العودة لقائمة المستخدمين",
+  "createAccountCloud": "إنشاء حساب موظف / مستخدم جديد سحابياً",
+  "fullNameLabel": "الاسم بالكامل *",
+  "fullNameValidator": "الرجاء إدخال الاسم بالكامل",
+  "emailLabel": "البريد الإلكتروني *",
+  "emailEmptyValidator": "الرجاء إدخال البريد الإلكتروني",
+  "emailInvalidValidator": "الرجاء إدخال بريد إلكتروني صالح",
+  "phoneLabel": "رقم الهاتف *",
+  "phoneValidator": "الرجاء إدخال رقم الهاتف",
+  "cityLabel": "المدينة *",
+  "roleLabel": "تحديد مستوى الصلاحية (Account Type) *",
+  "cancel": "إلغاء الأمر",
+  "saveAccountCloud": "حفظ",
+  "productsManagementSubtitle": "إدارة معروضات المنصة من نباتات، بذور، ومعدات حية",
+  "addNewProduct": "إضافة منتج جديد",
+  "searchProductsHint": "البحث باسم المنتج الحركي أو العلمي...",
+  "allCategories": "كل التصنيفات",
+  "productImageColumn": "الصورة",
+  "productNameArColumn": "الاسم",
+  "productNameEnColumn": "الاسم (إنجليزي)",
+  "productPriceColumn": "السعر",
+  "productStockColumn": "المخزون",
+  "noMatchingProducts": "لا توجد منتجات مطابقة للتصفية حالياً 📦",
+  "backToProductsList": "العودة لقائمة المنتجات",
+  "addProductToPlatform": "إضافة منتج جديد للمنصة",
+  "productTitleLabel": "اسم المنتج أو الصنف *",
+  "productTitleValidator": "الرجاء إدخال اسم المنتج",
+  "productDescriptionLabel": "وصف المنتج التفصيلي *",
+  "productDescriptionValidator": "الرجاء كتابة وصف للمنتج",
+  "productPriceLabel": "السعر (د.ل) *",
+  "productPriceValidator": "أدخل سعر صحيح",
+  "productStockLabel": "الكمية المتوفرة *",
+  "productStockValidator": "أدخل كمية صحيحة",
+  "mainCategoryLabel": "التصنيف الرئيسي *",
+  "categoryRequiredValidator": "الرجاء اختيار تصنيف للمنتج",
+  "suitableSeasonLabel": "الموسم الزراعي المناسب *",
+  "germinationRateLabel": "نسبة الإنبات إن وجدت (مثال: 90%)",
+  "saveProductCloud": "حفظ المنتج بالمنصة",
+  "ordersManagementTitle": "إدارة الطلبيات",
+  "ordersManagementSubtitle": "مراقبة ومعالجة طلبات المزارعين الواردة (آخر 30 طلبية مضافة)",
+  "addNewCancelReason": "إضافة سبب إلغاء جديد",
+  "noOrdersRegistered": "لا توجد أي طلبيات مسجلة في النظام حالياً.",
+  "showingOrders": "عرض {start} إلى {end} من إجمالي {total} طلبيات",
+  "@showingOrders": {
+    "placeholders": {
+      "start": { "type": "String" },
+      "end": { "type": "String" },
+      "total": { "type": "String" }
+    }
+  },
+  "pageOf": "صفحة {current} من {total}",
+  "@pageOf": {
+    "placeholders": {
+      "current": { "type": "String" },
+      "total": { "type": "String" }
+    }
+  },
+  "ordersError": "حدث خطأ أثناء جلب الطلبيات: {error}",
+  "@ordersError": {
+    "placeholders": {
+      "error": { "type": "String" }
+    }
+  },
+  "orderNumberColumn": "رقم الطلب",
+  "farmerAndContactColumn": "المزارع والاتصال",
+  "orderDateTimeColumn": "تاريخ ووقت الطلب",
+  "orderValueColumn": "قيمة الطلب",
+  "orderStatusColumn": "حالة الطلب",
+  "detailsColumn": "التفاصيل",
+  "pendingApproval": "بانتظار الموافقة",
+  "currency": "د.ل",
+  "orderDetailsTitle": "تفاصيل الطلبية #{id}",
+  "@orderDetailsTitle": {
+    "placeholders": {
+      "id": { "type": "String" }
+    }
+  },
+  "clientData": "بيانات العميل",
+  "clientNameLabel": "الاسم: {name}",
+  "@clientNameLabel": {
+    "placeholders": {
+      "name": { "type": "String" }
+    }
+  },
+  "clientPhoneLabel": "الهاتف: {phone}",
+  "@clientPhoneLabel": {
+    "placeholders": {
+      "phone": { "type": "String" }
+    }
+  },
+  "clientUserIdLabel": "معرف المستخدم: {id}",
+  "@clientUserIdLabel": {
+    "placeholders": {
+      "id": { "type": "String" }
+    }
+  },
+  "deliveryAndTimeData": "بيانات التوصيل والوقت",
+  "deliveryAddressLabel": "العنوان: {address}",
+  "@deliveryAddressLabel": {
+    "placeholders": {
+      "address": { "type": "String" }
+    }
+  },
+  "deliveryFeeLabel": "سعر التوصيل: {fee} د.ل",
+  "@deliveryFeeLabel": {
+    "placeholders": {
+      "fee": { "type": "String" }
+    }
+  },
+  "orderTimeLabel": "وقت الطلب: {time}",
+  "@orderTimeLabel": {
+    "placeholders": {
+      "time": { "type": "String" }
+    }
+  },
+  "requestedProducts": "المنتجات المطلوبة:",
+  "productTableColumn": "المنتج",
+  "unitPriceTableColumn": "سعر الوحدة",
+  "quantityTableColumn": "الكمية",
+  "subtotalTableColumn": "الإجمالي الفرعي",
+  "totalProductsLabel": "إجمالي المنتجات:",
+  "deliveryCostLabel": "تكلفة التوصيل:",
+  "grandTotalLabel": "المجموع الكلي:",
+  "cancellationInfoTitle": "معلومات إلغاء الطلبية:",
+  "cancelReasonLabel": "سبب الإلغاء: {reason}",
+  "@cancelReasonLabel": {
+    "placeholders": {
+      "reason": { "type": "String" }
+    }
+  },
+  "noReasonSpecified": "لم يتم تحديد سبب",
+  "adminNotesLabel": "ملاحظات الإدارة: {notes}",
+  "@adminNotesLabel": {
+    "placeholders": {
+      "notes": { "type": "String" }
+    }
+  },
+  "orderNotesLabel": "ملاحظات على الطلب: {notes}",
+  "@orderNotesLabel": {
+    "placeholders": {
+      "notes": { "type": "String" }
+    }
+  },
+  "updateOrderStatusTitle": "تعديل حالة الطلبية:",
+  "orderStatusUpdatedSuccess": "تم تحديث حالة الطلبية إلى ({status}) بنجاح",
+  "@orderStatusUpdatedSuccess": {
+    "placeholders": {
+      "status": { "type": "String" }
+    }
+  },
+  "cancelOrderAndReturnProducts": "إلغاء الطلبية وإرجاع المنتجات",
+  "cancelOrderConfirmation": "أنت بصدد إلغاء الطلبية #{id}. يرجى تحديد السبب وحفظ التفاصيل:",
+  "@cancelOrderConfirmation": {
+    "placeholders": {
+      "id": { "type": "String" }
+    }
+  },
+  "actualCancelReason": "سبب الإلغاء الحقيقي",
+  "selectCancelReasonValidator": "يرجى اختيار سبب الإلغاء أولاً",
+  "additionalAdminNotes": "ملاحظات الإدارة الإضافية (اختياري)",
+  "goBack": "تراجع",
+  "confirmFinalCancellation": "تأكيد الإلغاء النهائي",
+  "customerChangedMind": "تراجع العميل عن الطلب",
+  "orderCancelledSuccess": "تم إلغاء الطلبية وتثبيت البيانات بنجاح",
+  "addNewCancelReasonSystem": "إضافة سبب إلغاء جديد في النظام",
+  "newReasonDisclaimer": "السبب الجديد سيظهر فوراً كخيار في قائمة الإلغاء لدى مراجعي النظام.",
+  "cancelReasonArLabel": "سبب الإلغاء",
+  "requiredField": "مطلوب",
+  "cancelReasonEnLabel": "سبب الإلغاء",
+  "saveAndRegister": "حفظ",
+  "newCancelReasonRegisteredSuccess": "تم تسجيل سبب الإلغاء الجديد بنجاح",
+  "citiesManagementTitle": "إدارة المدن ",
+    "searchCityHint": "بحث باسم المدينة...",
+    "noRegisteredCities": "لم يتم العثور على أي مدن مسجلة حالياً",
+    "noMatchingCities": "لا توجد مدن تطابق البحث الحالي.",
+    "serialNumberColumn": "#",
+    "cityNameColumn": "اسم المدينة",
+    "activityStatusColumn": "حالة النشاط",
+    "inactiveStatus": "غير نشط",
+    "statusUpdateFailed": "فشل في تعديل الحالة: {error}",
+    "@statusUpdateFailed": {
+      "placeholders": {
+        "error": { "type": "String" }
+      }
+    },
+    "errorLoadingCities": "حدث خطأ أثناء تحميل المدن: {error}",
+    "@errorLoadingCities": {
+      "placeholders": {
+        "error": { "type": "String" }
+      }
+    },
+    "addNewCity": "إضافة مدينة",
+    "regionsManagementTitle": "إدارة المناطق وتكلفة التوصيل",
+      "searchRegionHint": "بحث باسم المنطقة...",
+      "noRegisteredRegions": "لا توجد مناطق مسجلة حالياً",
+      "noMatchingRegions": "لا توجد نتائج تطابق البحث الحالي.",
+      "regionColumn": "المنطقة",
+      "cityColumn": "المدينة",
+      "deliveryFeeColumn": "سعر التوصيل",
+      "deliveryTimeColumn": "مدة التوصيل",
+      "deliveryStatusColumn": "حالة التوصيل",
+      "addNewRegion": "إضافة منطقة",
+      "errorLoadingRegions": "حدث خطأ أثناء تحميل المناطق: {error}",
+      "@errorLoadingRegions": {
+        "placeholders": {
+          "error": { "type": "String" }
+        }
+      },
+      "addNewDeliveryRegionTitle": "إضافة منطقة توصيل جديدة",
+        "parentCityLabel": "المدينة التابعة لها *",
+        "selectCityHint": "اختر المدينة",
+        "selectParentCityValidator": "الرجاء اختيار المدينة التابعة",
+        "errorFetchingCities": "حدث خطأ في جلب المدن",
+        "regionNameLabel": "اسم المنطقة *",
+        "requiredFieldValidator": "هذا الحقل مطلوب",
+        "deliveryFeeInputLabel": "سعر التوصيل (د.ل) *",
+        "invalidValueValidator": "قيمة غير صالحة",
+        "deliveryDurationLabel": "مدة التوصيل (مثال: يوم - يومين) *",
+        "savingProgress": "جاري الحفظ...",
+        "add": "إضافة",
+        "addNewCityTitle": "إضافة مدينة جديدة للخدمة",
+        "addCityInstruction": "يرجى إدخال اسم المدينة التي تريد تفعيلها واستقبال الطلبات منها:",
+        "cityNameInputLabel": "اسم المدينة (مثال: طبرق)",
+        "cityNameValidator": "يرجى إدخال اسم المدينة",
+        "addAndActivate": "إضافة وتفعيل",
+        "cityAddedSuccess": "تمت إضافة مدينة {city} بنجاح!",
+        "@cityAddedSuccess": {
+          "placeholders": {
+            "city": { "type": "String" }
+          }
+        },
+        "addFailedError": "فشل الإضافة: {error}",
+        "@addFailedError": {
+          "placeholders": {
+            "error": { "type": "String" }
+          }
+        },
+        "editRegionTitle": "تعديل بيانات المنطقة",
+          "regionNameArLabel": "اسم المنطقة (بالعربية) *",
+          "editDetails": "تعديل التفاصيل",
+          "editProgress": "جاري التعديل...",
+          "editCityTitle": "تعديل بيانات المدينة",
+          "cityUpdatedSuccess": "تم تعديل المدينة بنجاح!",
+          "updateFailedError": "فشل التعديل: {error}",
+          "@updateFailedError": {
+            "placeholders": {
+              "error": { "type": "String" }
+            }
+          },
+          "manageCancelReasonsTitle": "إدارة أسباب إلغاء الطلبات",
+            "manageCancelReasonsSubtitle": "تصفح وأضف أسباب إلغاء الطلبيات، مع إمكانية إيقاف تفعيل الأسباب القديمة لسلامة سجلات النظام التاريخية.",
+            "errorLoadingReasons": "حدث خطأ أثناء تحميل الأسباب: {error}",
+            "@errorLoadingReasons": {
+              "placeholders": {
+                "error": { "type": "String" }
+              }
+            },
+            "noRegisteredReasons": "لا توجد أسباب إلغاء مسجلة حالياً",
+            "addFirstReasonInstruction": "قم بإضافة السبب الأول لكي يظهر للمشرفين في نافذة إلغاء الطلبات.",
+            "addNow": "أضف الآن",
+            "reasonColumn": "السبب",
+            "disabledStatus": "معطل",
+            "reasonReactivatedSuccess": "تم إعادة تنشيط سبب الإلغاء بنجاح!",
+            "reasonDeactivatedSuccess": "تم إيقاف تفعيل سبب الإلغاء.",
+            "operationFailed": "فشلت العملية: {error}",
+            "@operationFailed": {
+              "placeholders": {
+                "error": { "type": "String" }
+              }
+            },
+            "unexpectedError": "حدث خطأ غير متوقع",
+            "manageOrderStatusesTitle": "إدارة حالات الطلبيات",
+              "manageOrderStatusesSubtitle": "تصفح وأضف وحرر حالات الطلبيات وألوانها المخصصة، مع إمكانية التفعيل والإيقاف الفوري.",
+              "addNewStatus": "إضافة حالة جديدة",
+              "errorLoadingStatuses": "حدث خطأ أثناء تحميل حالات الطلبيات: {error}",
+              "@errorLoadingStatuses": {
+                "placeholders": {
+                  "error": { "type": "String" }
+                }
+              },
+              "noRegisteredStatuses": "لا توجد حالات طلبات مسجلة حالياً",
+              "addFirstStatusInstruction": "قم بإضافة الحالة الأولى للنظام لكي تظهر في متابعة الطلبات.",
+              "addStatusNow": "أضف حالة الآن",
+              "statusNameColumn": "اسم الحالة",
+              "statusIdColumn": "المعرف (ID)",
+              "statusDescriptionColumn": "الوصف",
+              "statusColorColumn": "اللون",
+              "statusActivatedSuccess": "تم تنشيط حالة الطلب ({name}) بنجاح!",
+              "@statusActivatedSuccess": {
+                "placeholders": {
+                  "name": { "type": "String" }
+                }
+              },
+              "statusDeactivatedSuccess": "تم إيقاف تفعيل حالة الطلب ({name}).",
+              "@statusDeactivatedSuccess": {
+                "placeholders": {
+                  "name": { "type": "String" }
+                }
+              },
+              "editOrderStatusTitle": "تعديل حالة الطلب",
+              "addOrderStatusTitle": "إضافة حالة جديدة",
+              "orderStatusFormSubtitle": "قم بإدخال تفاصيل حالة الطلب التي تظهر للمستخدمين والمشرفين في اللوحة.",
+              "statusIdLabel": "المعرف الفريد (statusId)",
+              "statusIdHint": "مثال: processing, delivered, cancelled",
+              "statusIdRequiredError": "يرجى إدخال المعرف الفريد للحالة",
+              "statusIdInvalidError": "المعرف يجب أن يحتوي على أحرف إنجليزية وأرقام فقط بدون مساحات",
+              "statusNameLabel": "اسم الحالة",
+              "statusNameHint": "مثال: جاري التجهيز",
+              "statusDescriptionLabel": "الوصف التفصيلي للحالة",
+              "statusDescriptionHint": "مثال: يقوم فريقنا الآن بتغليف وتجهيز المنتجات للشحن",
+              "colorHexLabel": "كود اللون (Hex)",
+              "colorHexHint": "#2196F3",
+              "colorHexRequiredError": "يرجى إدخال كود اللون",
+              "colorHexInvalidError": "صيغة غير صحيحة (مثال: #2196F3)",
+              "previewLabel": "المعاينة",
+              "suggestedColorsLabel": "ألوان مقترحة للسماح باختيار سريع:",
+              "systemActivationStatusLabel": "حالة تفعيل النظام (نشط):",
+              "saveChanges": "حفظ التعديلات",
+              "addStatus": "إضافة الحالة",
+              "statusUpdatedSuccess": "تم تحديث حالة الطلب بنجاح!",
+              "statusAddedSuccess": "تم إضافة حالة الطلب الجديدة بنجاح!",
+              "errorLoadingSettings": "تعذر تحميل الإعدادات العامة. يرجى المحاولة مرة أخرى.",
+                "generalAppSettingsTitle": "الإعدادات العامة للتطبيق",
+                "generalAppSettingsSubtitle": "إدارة بيانات التطبيق الأساسية وروابط التواصل والصفحات القانونية.",
+                "generalAndOperationSettings": "الإعدادات العامة والتشغيل",
+                "appNameLabel": "اسم التطبيق",
+                "appNameHint": "مثال: غِراس",
+                "appVersionLabel": "إصدار التطبيق",
+                "appVersionHint": "مثال: 1.0.0",
+                "storeSupportPhoneLabel": "رقم دعم المتجر",
+                "storeSupportPhoneHint": "مثال: 0912345678",
+                "minOrderValueLabel": "الحد الأدنى للطلب",
+                "minOrderValueHint": "مثال: 50",
+                "currencyCodeLabel": "رمز العملة",
+                "currencyCodeHint": "مثال: LYD",
+                "socialMediaLinksTitle": "روابط التواصل الاجتماعي",
+                "facebookUrlLabel": "رابط فيسبوك",
+                "facebookUrlHint": "https://facebook.com/...",
+                "instagramUrlLabel": "رابط إنستغرام",
+                "instagramUrlHint": "https://instagram.com/...",
+                "whatsappNumberLabel": "رقم واتساب",
+                "whatsappNumberHint": "مثال: 218912345678+",
+                "legalAndIntroPagesTitle": "الصفحات التعريفية والقانونية",
+                "aboutUsLabel": "من نحن",
+                "aboutUsHint": "اكتب وصفاً واضحاً ومختصراً عن المتجر.",
+                "privacyPolicyUrlLabel": "رابط سياسة الخصوصية",
+                "privacyPolicyUrlHint": "https://example.com/privacy",
+                "termsUrlLabel": "رابط الشروط والأحكام",
+                "termsUrlHint": "https://example.com/terms",
+                "maintenanceModeActive": "وضع الصيانة مفعل حالياً",
+                "changesApplyAfterSave": "سيتم تطبيق التغييرات على التطبيق بعد الحفظ",
+                "saveSettingsButton": "حفظ الإعدادات",
+                "settingsSavedSuccess": "تم حفظ الإعدادات العامة بنجاح",
+                "settingsSaveError": "تعذر حفظ الإعدادات. يرجى المحاولة مرة أخرى.",
+                "maintenanceModeActiveStatus": "التطبيق تحت الصيانة",
+                "appWorkingNormally": "التطبيق يعمل بشكل طبيعي",
+                "unblockUserTooltip": "إلغاء الحظر",
+                  "blockUserTooltip": "حظر الحساب",
+                  "editUserDetailsTitle": "تعديل بيانات المستخدم",
+                  "userUpdatedSuccess": "تم التحديث بنجاح",
+                  "areYouSurePrompt": "هل أنت متأكد من هذا الإجراء؟",
+                  "accountStatusUpdatedSuccess": "تم تغيير حالة الحساب بنجاح",
+                  "confirmButton": "تأكيد",
+                  "manageAdminsTitle": "إدارة المشرفين والصلاحيات",
+                    "manageAdminsSubtitle": "إدارة حسابات المشرفين، تحديد أدوارهم، والتحكم بصلاحيات الوصول للوحة التحكم.",
+                    "addNewAdmin": "إضافة مشرف جديد",
+                    "statusUpdatedSuccess": "تم تحديث الحالة بنجاح!",
+                    "nameColumn": "الاسم",
+                    "emailColumn": "البريد الإلكتروني",
+                    "phoneColumn": "رقم الهاتف",
+                    "noRegisteredAdmins": "لا يوجد مشرفين مسجلين حالياً.",
+                    "editAdminRole": "تعديل صلاحيات المشرف",
+                    "adminUpdatedSuccess": "تم تحديث بيانات وصلاحيات المشرف بنجاح!",
+                    "adminAddedSuccess": "تم إضافة المشرف الجديد بنجاح!",
+                    "save": "حفظ"
+}

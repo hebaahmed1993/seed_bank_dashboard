@@ -1,0 +1,80 @@
+[
+  {
+    "id": 1,
+    "title": "البازين الليبي",
+    "category": "أكلات شعبية",
+    "description": "طبق ليبي أصيل يقدم مع المرق واللحم بطريقة دافئة وغنية.",
+    "durationMinutes": 75,
+    "servings": 4,
+    "difficulty": "متوسط",
+    "imageUrl": "https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=900&q=80",
+    "ingredients": ["دقيق شعير", "لحم", "طماطم", "بصل", "بهارات ليبية"],
+    "steps": ["تحضير المرق", "طبخ الدقيق تدريجيا", "تشكيل البازين", "التقديم مع المرق"],
+    "isTodayPick": true
+  },
+  {
+    "id": 2,
+    "title": "مبكبكة",
+    "category": "أكلات سريعة",
+    "description": "مكرونة ليبية بصلصة حارة خفيفة وتحضير سريع.",
+    "durationMinutes": 35,
+    "servings": 3,
+    "difficulty": "سهل",
+    "imageUrl": "https://images.unsplash.com/photo-1551183053-bf91a1d81141?auto=format&fit=crop&w=900&q=80",
+    "ingredients": ["مكرونة", "طماطم", "فلفل", "ثوم", "زيت زيتون"],
+    "steps": ["تشويح الثوم", "إضافة الصلصة", "طبخ المكرونة داخل الصلصة"],
+    "isTodayPick": false
+  },
+  {
+    "id":3,
+    "title": "شوربة ليبية",
+    "category": "شوربات",
+    "description": "شوربة رمضانية شهيرة باللحم والنعناع المجفف.",
+    "durationMinutes": 45,
+    "servings": 5,
+    "difficulty": "سهل",
+    "imageUrl": "https://images.unsplash.com/photo-1547592166-23ac45744acd?auto=format&fit=crop&w=900&q=80",
+    "ingredients": ["لحم مفروم", "شعيرية", "طماطم", "حمص", "نعناع"],
+    "steps": ["تحمير اللحم", "إضافة الطماطم والبهارات", "إضافة الشعيرية والنعناع"],
+    "isTodayPick": false
+  },
+  {
+    "id": 4,
+    "title": "بوريك بالجبن",
+    "category": "معجنات",
+    "description": "معجنات مقرمشة بحشوة جبن وبقدونس مناسبة للمائدة اليومية.",
+    "durationMinutes": 30,
+    "servings": 6,
+    "difficulty": "سهل",
+    "imageUrl": "https://images.unsplash.com/photo-1601050690597-df0568f70950?auto=format&fit=crop&w=900&q=80",
+    "ingredients": ["عجينة بوريك", "جبن", "بقدونس", "بيض", "زيت"],
+    "steps": ["خلط الحشوة", "لف العجين", "قلي أو خبز البوريك حتى يتحمر"],
+    "isTodayPick": false
+  },
+  {
+    "id": 5,
+    "title": "العصيدة",
+    "category": "حلويات",
+    "description": "طبق حلو تقليدي يقدم بالعسل أو الرب في المناسبات.",
+    "durationMinutes": 50,
+    "servings": 4,
+    "difficulty": "متوسط",
+    "imageUrl": "https://images.unsplash.com/photo-1605197183305-6e4a0d38f62a?auto=format&fit=crop&w=900&q=80",
+    "ingredients": ["دقيق", "ماء", "ملح", "عسل", "زبدة"],
+    "steps": ["غلي الماء", "إضافة الدقيق مع التحريك", "تشكيل العصيدة", "إضافة العسل والزبدة"],
+    "isTodayPick": false
+  },
+  {
+    "id": 6,
+    "title": "شاهي ليبي",
+    "category": "مشروبات",
+    "description": "شاهي ثقيل بالرغوة يقدم مع النعناع أو اللوز حسب الرغبة.",
+    "durationMinutes": 20,
+    "servings": 4,
+    "difficulty": "سهل",
+    "imageUrl": "https://images.unsplash.com/photo-1576092768241-dec231879fc3?auto=format&fit=crop&w=900&q=80",
+    "ingredients": ["شاهي أحمر", "سكر", "نعناع", "ماء"],
+    "steps": ["غلي الشاهي", "إضافة السكر", "سكب الشاهي عدة مرات لصنع الرغوة"],
+    "isTodayPick": false
+  }
+]

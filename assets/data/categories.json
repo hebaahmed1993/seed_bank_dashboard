@@ -1,0 +1,44 @@
+[
+  {
+    "id": "soups",
+    "name": "شوربات",
+    "description": "شوربات ليبية دافئة ومناسبة للمائدة اليومية",
+    "icon": "soup_kitchen",
+    "color": "#E76F51"
+  },
+  {
+    "id": "pastries",
+    "name": "معجنات",
+    "description": "فطائر وبوريك ومخبوزات خفيفة",
+    "icon": "bakery_dining",
+    "color": "#F4A261"
+  },
+  {
+    "id": "traditional",
+    "name": "أكلات شعبية",
+    "description": "أشهر الأطباق الليبية التقليدية",
+    "icon": "restaurant_menu",
+    "color": "#2A9D8F"
+  },
+  {
+    "id": "sweets",
+    "name": "حلويات",
+    "description": "حلويات ليبية للمناسبات والضيافة",
+    "icon": "cake",
+    "color": "#D62872"
+  },
+  {
+    "id": "quick_meals",
+    "name": "أكلات سريعة",
+    "description": "وصفات سهلة وسريعة التحضير",
+    "icon": "schedule",
+    "color": "#457B9D"
+  },
+  {
+    "id": "drinks",
+    "name": "مشروبات",
+    "description": "مشروبات ساخنة وباردة من المطبخ المحلي",
+    "icon": "local_cafe",
+    "color": "#8D6E63"
+  }
+]
